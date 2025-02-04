@@ -1,0 +1,119 @@
+npm -- Help to install packages
+Reactjs is library / framework of Javascript.
+
+// Javascript basics
+  <script>
+      "use strict";
+      let a = 10;
+      // c = 10           -- show error
+      let b = "Hii JavaScript";
+      console.log(a);
+      console.log(b);
+      // Data types
+      // Number
+      // Object
+      // Boolean true false
+      // String
+      // undefined
+
+      // Function 
+      function obj() {
+        console.log("Function");
+      }
+
+      // Objects
+      let obj2 = {
+        r: "Run",
+        w: 10,
+        func: function func(number) {
+                  console.log("You are in function");
+        }
+      }
+
+      // Events
+      document.addEventListener("click", function click() {
+        //  console.log("clicked");
+        //  alert("hello");
+
+         let conf = confirm("Are you sure?");
+         console.log(conf);
+      })
+      
+      // Arrays
+      let arr = [34, 25, 23];
+      for (let index = 0; index < arr.length; index++) {
+        const element = arr[index];
+        console.log(element);
+        
+      }
+      
+      //  Arrow function uses this of window 
+       console.log(this);
+  
+       let myfunc = (number) => {
+           console.log("The arrow func is " , this);
+       }
+       myfunc();
+
+      // Normal function uses his own this
+      let func2 = function(number) {
+        console.log("The normal func is :", this);
+      }
+      func2();
+
+      // Callback function
+      setTimeout(() => {
+        console.log("Hyy");
+      },4000 )
+      
+      // console.log("Hii");          // Print before setTimeout due to Aysnchronous property
+      
+      
+    </script>
+
+5.JSX -- JavaScript XHTML <> </>
+
+// By the use of Function in Reactjs ,Don't need to import react 
+
+6. Modules
+modules1 & modules2
+
+7. Understanding State & Handling Events in React
+export default function Textform(props) {
+    
+   const handleUpClick = () => {
+    console.log("Uppercase letter was clicked " + text);
+    let newText = text.toUpperCase();
+    setText(newText);
+   }
+   
+   const handdleOnChange = (event) => {
+      console.log('onClick');
+      setText(event.target.value);
+   }
+    
+    const [text, setText] = useState('Enter text here');
+
+    // text = "jajhajh";     // Wrong way to change the variable value 
+  return (
+    <div>   
+            <h1> {props.heading}</h1>
+            <div className="mb-3">
+     
+            <textarea className="form-control" value={text} onChange={handdleOnChange} id="exampleFormControlTextarea1" rows="8"></textarea>
+       </div>
+       <button className="btn btn-primary" onClick={handleUpClick} > Convert to UpperCase </button>
+    </div>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
