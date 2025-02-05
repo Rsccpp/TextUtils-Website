@@ -55,27 +55,27 @@ function App() {
     }
   }
 
-  const [rmode, setRedMode] = useState('light');
+  // const [rmode, setRedMode] = useState('light');
 
-  const redMode = ()=> {
-    if(rmode === 'light') {
-      setRedMode("Red")
-      document.body.style.backgroundColor = '#ea0c21c9'
-      showAlert("Red mode is Enabled", "success")
-    }
-    else {
-      setRedMode("light")
-      document.body.style.backgroundColor = 'white'
-      showAlert("Light mode is Enabled", "success")
-    }
-  }
+  // const redMode = ()=> {
+  //   if(rmode === 'light') {
+  //     setRedMode("Red")
+  //     document.body.style.backgroundColor = '#ea0c21c9'
+  //     showAlert("Red mode is Enabled", "success")
+  //   }
+  //   else {
+  //     setRedMode("light")
+  //     document.body.style.backgroundColor = 'white'
+  //     showAlert("Light mode is Enabled", "success")
+  //   }
+  // }
 
   const root = ReactDom.createRoot(document.getElementById('root'));
 
   root.render (
     <>
 
-       <Navbar title=" TextUtils " aboutText="About Us " mode={mode} rmode={rmode} toggleMode={toggleMode} redMode={redMode} />
+       <Navbar title=" TextUtils " aboutText="About Us " mode={mode}  toggleMode={toggleMode}  />
       <Alert alert={alert} />
       <div className="container my-3">
     
