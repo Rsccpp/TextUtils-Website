@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
 import Alert from './components/Alert';
-// import About from './components/About';
+import About from './components/About';
 import { useState } from 'react';
 // To import react-router for smooth navigation
 // import {
@@ -78,24 +78,9 @@ function App() {
        <Navbar title=" TextUtils " aboutText="About Us " mode={mode} rmode={rmode} toggleMode={toggleMode} redMode={redMode} />
       <Alert alert={alert} />
       <div className="container my-3">
-    {/* <BrowserRouter>
-      <Routes>
-      
-      
-          
-                <Route path='/' element={<Textform heading="Enter the text to analyze " mode={mode} showAlert={showAlert}/>}> 
-                    {/* <Route index element={<About />} /> */}
-
-                  {/* <Route path='./components/About' element={<About />} />
-                </Route> */}
-
-                    
-
-          
-      {/* </Routes> */}
-      {/* <About />
-     {/* </BrowserRouter>  */} 
+    
      <Textform heading="Enter the text to analyze " mode={mode} showAlert={showAlert}/> 
+       {/* <About />  */}
        </div>
     </>
 
