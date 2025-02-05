@@ -85,8 +85,8 @@ export default function Textform(props) {
      
         <div style={{color: (props.mode === 'light' ? 'black' : 'white')}}>
           <h2> Your text Summary: </h2>
-          {/* By default 1 words and 1 characters count. */}
-          <p> {text.split(" ").filter((elements)=> {return elements.length !==0}).length} words and {text.length} characters  </p>
+          
+          <p> {text.split(/\s+/).filter((elements)=> {return elements.length !==0}).length} words and {text.length} characters  </p>
           <p> { 0.008 * text.split(" ").filter((elements)=> {return elements.length !==0}).length } Minutes read</p>
           <h3> Preview </h3>
           <p>{text.length>0? text : "Nothing to preview"}</p>
