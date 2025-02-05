@@ -1,10 +1,12 @@
-import React, {use, useState} from 'react';
-import PropTypes from 'prop-types';
+import React, {useState} from 'react';
+// import PropTypes from 'prop-types';
 import {jsPDF} from 'jspdf';
 
 
 
 export default function Textform(props) {
+
+
   // For textBox
   const handleOnChange = (event) => {
     // console.log('onclick');
@@ -73,12 +75,12 @@ export default function Textform(props) {
                 <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor: (props.mode === 'dark' ? 'grey' : 'white'), color: (props.mode === 'light' ? 'dark' : 'white')} }rows="8"></textarea>
                 
           </div>
-          <button className="bts bts-primary mx-1 my-1"  onClick={handleUpClick}> Change to UpperCase</button>
-          <button className="bts bts-primary mx-1 my-1"   onClick={handleDownClick}> Change to LowerCase</button>
-          <button className="bts bts-primary mx-1 my-1"   onClick={handleClear}>Clear Text</button>
-          <button className="bts bts-primary mx-1 my-1"   onClick={handleCopy}>Copy to clipboard</button>
-          <button className="bts bts-primary mx-1 my-1"   onClick={handleDownload}>Download Pdf</button>
-          <button className="bts bts-primary mx-1 my-1"   onClick={handleExtraSpace}>Remove ExtraSpace</button>
+          <button disabled={text.length===0} className="bts bts-primary mx-1 my-1"  onClick={handleUpClick}> Change to UpperCase</button>
+          <button disabled={text.length===0} className="bts bts-primary mx-1 my-1"   onClick={handleDownClick}> Change to LowerCase</button>
+          <button disabled={text.length===0}className="bts bts-primary mx-1 my-1"   onClick={handleClear}>Clear Text</button>
+          <button disabled={text.length===0}className="bts bts-primary mx-1 my-1"   onClick={handleCopy}>Copy to clipboard</button>
+          <button disabled={text.length===0} className="bts bts-primary mx-1 my-1"   onClick={handleDownload}>Download Pdf</button>
+          <button disabled={text.length===0} className="bts bts-primary mx-1 my-1"   onClick={handleExtraSpace}>Remove ExtraSpace</button>
       
      
         <div style={{color: (props.mode === 'light' ? 'black' : 'white')}}>
@@ -87,7 +89,7 @@ export default function Textform(props) {
           <p> {text.split(" ").filter((elements)=> {return elements.length !==0}).length} words and {text.length} characters  </p>
           <p> { 0.008 * text.split(" ").filter((elements)=> {return elements.length !==0}).length } Minutes read</p>
           <h3> Preview </h3>
-          <p>{text.length>0? text : "Enter Your Text to preview it here"}</p>
+          <p>{text.length>0? text : "Nothing to preview"}</p>
         </div>
       </div>
 

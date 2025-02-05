@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
 import Alert from './components/Alert';
-import About from './components/About';
+// import About from './components/About';
 import { useState } from 'react';
 // To import react-router for smooth navigation
 // import {
@@ -38,7 +38,7 @@ function App() {
       setMode("dark")
       document.body.style.backgroundColor = '#08353f';
       showAlert("Dark mode is Enabled", "success");
-      document.title = "TextUtils - Dark Mode";
+      // document.title = "TextUtils - Dark Mode";
     }
     else {
       setMode("light")
@@ -46,7 +46,7 @@ function App() {
       showAlert("Light mode is Enabled", "success")
 
       // To change Title dynamically
-      document.title = "TextUtils - Light Mode";
+      // document.title = "TextUtils - Light Mode";
 
       // Instant Visible
       // setInterval( ()=> {
