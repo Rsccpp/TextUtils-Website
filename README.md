@@ -4,7 +4,6 @@ TextUtils is a simple yet powerful text manipulation web application built using
 
 
 
-
 🚀 Features
 
 ✅ Convert Text to Uppercase & Lowercase
