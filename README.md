@@ -1,8 +1,10 @@
 📌 TextUtils - React.js Web App
+
 TextUtils is a simple yet powerful text manipulation web application built using React.js. It provides a variety of text processing utilities, making it easier to format, analyze, and modify text efficiently.
 
 
 🚀 Features
+
 ✅ Convert Text to Uppercase & Lowercase
 ✅ Remove Extra Spaces
 ✅ Copy Text with One Click
@@ -11,12 +13,14 @@ TextUtils is a simple yet powerful text manipulation web application built using
 
 
 🛠 Technologies Used
+
 Frontend: React.js (JSX, Hooks, State Management)
 Styling: CSS / Bootstrap
 Deployment: GitHub Pages / Vercel
 
 
 📂 Project Structure
+
 TextUtils/
 
 │── src/
@@ -42,6 +46,7 @@ npm start
 
 
 📝 Future Enhancements
+
 🔹 Add text encryption & decryption features
 🔹 Implement a multilingual text translation tool
 🔹 Improve UI with animations and themes
