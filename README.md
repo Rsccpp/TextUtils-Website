@@ -1,11 +1,68 @@
-Text Utility Website
+📌 TextUtils - React.js Web App
+TextUtils is a simple yet powerful text manipulation web application built using React.js. It provides a variety of text processing utilities, making it easier to format, analyze, and modify text efficiently.
 
-A React.js-based web application designed for text manipulation. It includes features like case conversion (uppercase, lowercase, sentence case), word and character count, and text clearing. The application provides a clean and user-friendly interface, making it useful for writers, developers, and content creators.
 
-* Technologies Used:
-   React.js – Frontend framework for building the UI.
-   JavaScript (ES6+) – Core programming language used.
-   Bootstrap CSS – For responsive and modern styling.
-   HTML5 – Structuring the web page.
-   CSS3 – Styling enhancements.
+🚀 Features
+✅ Convert Text to Uppercase & Lowercase
+✅ Remove Extra Spaces
+✅ Copy Text with One Click
+✅ Word & Character Counter
+✅ Dark Mode for Better Accessibility
+
+
+🛠 Technologies Used
+Frontend: React.js (JSX, Hooks, State Management)
+Styling: CSS / Bootstrap
+Deployment: GitHub Pages / Vercel
+
+
+📂 Project Structure
+TextUtils/
+
+│── src/
+│   ├── components/    # React components (Navbar, TextForm, etc.)
+│   ├── App.js         # Main application logic
+│   ├── index.js       # ReactDOM render
+│── public/            # Static assets
+│── package.json       # Dependencies
+│── README.md          # Documentation
+
+
+🎯 How to Run Locally
+
+1️⃣ Clone the Repository:
+git clone https://github.com/your-username/TextUtils.git
+cd TextUtils
+
+2️⃣ Install Dependencies:
+npm install
+
+3️⃣ Start the App:
+npm start
+
+
+📝 Future Enhancements
+🔹 Add text encryption & decryption features
+🔹 Implement a multilingual text translation tool
+🔹 Improve UI with animations and themes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
