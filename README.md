@@ -16,9 +16,9 @@ TextUtils is a simple yet powerful text manipulation web application built using
 
 🛠 Technologies Used
 
-Frontend: React.js (JSX, Hooks, State Management).
-Styling: CSS / Bootstrap.
-Deployment: GitHub Pages / Vercel.
+Frontend: React.js (JSX, Hooks, State Management) 
+Styling: CSS / Bootstrap
+Deployment: GitHub Pages / Vercel
 
 
 
