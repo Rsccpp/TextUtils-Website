@@ -52,21 +52,21 @@ TextUtils/
 
 - 1️⃣ Clone the Repository:
 
-git clone https://github.com/your-username/TextUtils.git cd TextUtils
+      git clone https://github.com/your-username/TextUtils.git cd TextUtils
 
 - 2️⃣ Install Dependencies:npm install
 
--3️⃣ Start the App:npm start
+- 3️⃣ Start the App:npm start
 
 
 
 ### 📝 Future Enhancements
 
-- 🔹 Add text encryption & decryption features
+-  Add text encryption & decryption features
 
-- 🔹 Implement a multilingual text translation tool
+-  Implement a multilingual text translation tool
 
-- 🔹 Improve UI with animations and themes
+-  Improve UI with animations and themes
 
 
 
