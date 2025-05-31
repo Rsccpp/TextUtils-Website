@@ -4,7 +4,7 @@ TextUtils is a simple yet powerful text manipulation web application built using
 
 
 
-###🚀 Features
+### 🚀 Features
 
 ✅ Convert Text to Uppercase & Lowercas
 
@@ -18,7 +18,7 @@ TextUtils is a simple yet powerful text manipulation web application built using
 
 
 
-###🛠 Technologies Used
+### 🛠 Technologies Used
 
 Frontend: React.js (JSX, Hooks, State Management) 
 
@@ -28,7 +28,7 @@ Deployment: GitHub Pages / Vercel
 
 
 
-###📂 Project Structure
+### 📂 Project Structure
 
 TextUtils/
 
@@ -48,25 +48,25 @@ TextUtils/
 
 
 
-###🎯 How to Run Locally
+### 🎯 How to Run Locally
 
--1️⃣ Clone the Repository:
+- 1️⃣ Clone the Repository:
 
 git clone https://github.com/your-username/TextUtils.git cd TextUtils
 
--2️⃣ Install Dependencies:npm install
+- 2️⃣ Install Dependencies:npm install
 
 -3️⃣ Start the App:npm start
 
 
 
-###📝 Future Enhancements
+### 📝 Future Enhancements
 
--🔹 Add text encryption & decryption features
+- 🔹 Add text encryption & decryption features
 
--🔹 Implement a multilingual text translation tool
+- 🔹 Implement a multilingual text translation tool
 
--🔹 Improve UI with animations and themes
+- 🔹 Improve UI with animations and themes
 
 
 
